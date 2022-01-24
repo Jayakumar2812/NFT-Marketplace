@@ -693,6 +693,9 @@ export default function Home() {
               <div key={i} className=" border shadow rounded-xl overflow-hidden"  >
 				<div className='h-2/4'>
 					<Image className="object-cover" height="420" width= "380" src={nft.image} alt='IMAGE OF THE NFT!!'/>
+					{console.log(nft.image)}
+					{console.log(nft)}
+					{console.log(provider)}
 				</div>
                 <div className="p-4" >
                   <p style={{ height: '64px' }} className="text-2xl font-semibold">{nft.name}</p>
